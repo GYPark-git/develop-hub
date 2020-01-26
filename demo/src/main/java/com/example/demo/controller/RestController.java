@@ -25,6 +25,7 @@ public class RestController {
 		map.put("value2", 2);
 		map.put("value3", 3);
 		System.out.println("111111");
+		System.out.println("!11");
 		return new ResponseEntity<Map<String,Object>>(map,HttpStatus.OK);
 	}
 
